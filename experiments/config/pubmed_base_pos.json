@@ -1,0 +1,13 @@
+{
+  "pretrain_tfrecords": "/scratch/da33/trang/masked-lm/train/pubmed-128/pretrain_data.tfrecord*",
+  "num_train_steps": 100000,
+  "vocab_file": "/scratch/da33/trang/masked-lm/bert/config/en_uncase_vocab.txt",
+  "max_seq_length": 128,
+  "model_size": "base",
+  "train_batch_size": 32,
+  "eval_batch_size":32,
+  "init_checkpoint": "/scratch/da33/trang/masked-lm/models/bert_base_uncased/bert_model.ckpt",
+  "masking_strategy": "pos",
+  "debug": true,
+  "learning_rate": 1e-5
+}

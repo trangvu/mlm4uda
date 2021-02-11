@@ -1,0 +1,14 @@
+{
+  "vocab_file": "/home/xvuthith/da33_scratch/trang/masked-lm/models/bert_base_cased/vocab.txt",
+  "max_seq_length": 128,
+  "vocab_size": 28996,
+  "save_checkpoints_steps": 500,
+  "task_names": ["jnlpba"],
+  "num_trials": 10,
+  "n_writes_test": 10,
+  "train_batch_size": 32,
+  "write_test_outputs": true,
+  "model_size": "base",
+  "num_train_epochs": 3,
+  "learning_rate": 1e-5
+}

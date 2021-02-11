@@ -1,0 +1,9 @@
+{
+  "pretrain_tfrecords": "/home/565/tv2852/dz21/trang/maskedlm/data/wikibook-128/pretrain_data.tfrecord*",
+  "num_train_steps": 1000000,
+  "vocab_file": "/home/565/tv2852/dz21/trang/maskedlm/bert/config/en_uncase_vocab.txt",
+  "max_seq_length": 128,
+  "model_size": "small",
+  "train_batch_size": 128,
+  "eval_batch_size":64
+}

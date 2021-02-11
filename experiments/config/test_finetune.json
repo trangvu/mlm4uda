@@ -1,0 +1,13 @@
+{
+  "vocab_file": "/home/vuth0001/workspace/2019-bert-selective-masking/adversarial/bert/config/test_vocab.txt",
+  "max_seq_length": 64,
+  "vocab_size": 10000,
+  "save_checkpoints_steps": 500,
+  "debug": true,
+  "task_names": ["qqp"],
+  "init_checkpoint": "/home/vuth0001/workspace/2019-bert-selective-masking/temp/test23/models/test",
+  "num_trials": 2,
+  "train_batch_size": 8,
+  "write_test_outputs": true,
+  "model_dir": "/home/vuth0001/workspace/2019-bert-selective-masking/temp/test23/finetune"
+}

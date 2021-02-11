@@ -1,0 +1,13 @@
+{
+  "pretrain_tfrecords": "/home/trang/workspace/mlm/data/conll2003/tfrecord/pretrain_data.tfrecord*",
+  "num_train_steps": 5000,
+  "vocab_file": "/home/trang/workspace/mlm/data/models/bert_base_cased/vocab.txt",
+  "max_seq_length": 128,
+  "model_size": "mini",
+  "teacher_size": "mini",
+  "masking_strategy": "rw",
+  "save_checkpoints_steps": 500,
+  "debug": true,
+  "vocab_size": 28996,
+  "ratio_file": "/home/trang/workspace/repo/advLM/adv/experiments/analysis/density_ratio/rw_wnut2016.txt"
+}

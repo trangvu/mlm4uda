@@ -1,0 +1,15 @@
+{
+  "pretrain_tfrecords": "/projects/da33/data_nlp/named_entity_recognition/bionlp09/tfrecord-2M/pretrain_data.tfrecord*",
+  "num_train_steps": 100000,
+  "vocab_file": "/scratch/da33/trang/masked-lm/models/bert_base_cased/vocab.txt",
+  "max_seq_length": 128,
+  "model_size": "base",
+  "train_batch_size": 32,
+  "eval_batch_size":32,
+  "init_checkpoint": "/scratch/da33/trang/masked-lm/models/bert_base_cased/bert_model.ckpt",
+  "masking_strategy": "random",
+  "teacher_size": "base",
+  "learning_rate": 5e-5,
+  "vocab_size": 28996,
+  "debug": true
+}
