@@ -61,5 +61,25 @@ python3 run_finetuning.py \
     --init-checkpoint=$CHECKPOINT
 ```
 
+## References
+Please cite the following paper if you found the resources in this repository useful.
+```
+@inproceedings{vu-etal-2020-effective,
+    title = "Effective Unsupervised Domain Adaptation with Adversarially Trained Language Models",
+    author = "Vu, Thuy-Trang  and
+      Phung, Dinh  and
+      Haffari, Gholamreza",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.497",
+    doi = "10.18653/v1/2020.emnlp-main.497",
+    pages = "6163--6173"
+}
+```
+
+
 ## Acknowledgement
 This project is implemented based on [electra](https://github.com/google-research/electra) source code
