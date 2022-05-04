@@ -61,7 +61,7 @@ python3 run_finetuning.py \
     --init-checkpoint=$CHECKPOINT
 ```
 
-## References
+## Citing
 Please cite the following paper if you found the resources in this repository useful.
 ```
 @inproceedings{vu-etal-2020-effective,
